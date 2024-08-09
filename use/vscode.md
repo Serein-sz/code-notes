@@ -4,22 +4,36 @@
 
 1. Better Comments
 2. Carbon Product icons
-3. Catppuccin Icons for VSCode
-4. Code Spell Checker
-5. CodeSnap
-6. Error Lens
-7. ESLint
-8. Highlight Matching Tag
-9. JavaScript (ES6) code snippets
-10. Live Server
-11. Path Intellisense
-12. Project Manager
-13. Regex Previewer
-14. SynthWave '84
-15. Toggle Quotes
-16. Vibrancy Continued
-17. vscode-json
-18. Vue - Official
+3. Bongo Cat
+4. Catppuccin Icons for VSCode
+5. Code Spell Checker
+6. Code runner
+7. CodeSnap
+8. codelldb
+9. Error Lens
+10. ESLint
+11. ftl xml
+12. git graph
+13. git history
+14. git lens
+15. insert number
+16. lorem ipsum
+17. prisma
+18. rust-analyzer
+19. Tailwind Css IntelliSense
+20. Highlight Matching Tag
+21. JavaScript (ES6) code snippets
+22. Live Server
+23. Path Intellisense
+24. Project Manager
+25. Regex Previewer
+26. SynthWave '84
+27. Toggle Quotes
+28. Vibrancy Continued
+29. vscode-json
+30. Vue - Official
+31. vue-helper
+32. auto import
 
 
 
@@ -125,7 +139,7 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.perEditorGroup": true,
-  "workbench.editor.limit.value": 5,
+  "workbench.editor.limit.value": 15,
   "search.exclude": {
     "**/*.snap": true,
     "**/*.svg": true,

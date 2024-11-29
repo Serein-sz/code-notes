@@ -15,6 +15,108 @@ pfetch
 
 ### startship
 
+``address`` https://starship.rs/zh-CN/guide/
+
+```powershell
+# starship style config
+Invoke-Expression (&starship init powershell)
+$ENV:STARSHIP_CONFIG = "D:\code-softwares\start_ship_conf\bracketed-segments.toml"
+```
+
+### alias
+
+```powershell
+# git simple command
+function git-clone {
+  git clone $args
+}
+
+Set-Alias -Name gcl -Value git-clone
+
+function git-stash {
+  git stash $args
+}
+
+Set-Alias -Name gs -Value git-stash
+
+function git-stash-apply {
+  git stash apply $args
+}
+
+Set-Alias -Name gsa -Value git-stash-apply
+
+function git-stash-list {
+  git stash list $args
+}
+
+Set-Alias -Name gsl -Value git-stash-list
+
+function git-pull {
+  git pull $args
+}
+
+Set-Alias -Name gpu -Value git-pull
+
+function git-push {
+  git push $args
+}
+
+Set-Alias -Name gph -Value git-push
+
+function git-add {
+  git add $args
+}
+
+Set-Alias -Name ga -Value git-add
+
+function git-commit-chore {
+  git commit -m "<chore>: $args"
+}
+
+Set-Alias -Name gcco -Value git-commit-chore
+
+function git-commit-feat {
+  git commit -m "<feat>: $args"
+}
+
+Set-Alias -Name gcf -Value git-commit-feat
+
+function git-commit-fix {
+  git commit -m "<fix>: $args"
+}
+
+Set-Alias -Name gcfx -Value git-commit-fix
+
+function git-commit-refactor {
+  git commit -m "<refactor>: $args"
+}
+
+Set-Alias -Name gcr -Value git-commit-refactor
+
+function git-commit-doc {
+  git commit -m "<doc>: $args"
+}
+
+Set-Alias -Name gcd -Value git-commit-doc
+
+# arthas
+
+function run-arthas {
+  java -jar D:\code-softwares\arthas-bin\arthas-boot.jar
+}
+
+Set-Alias -Name arthas -Value run-arthas
+
+function run-nacos {
+    Start-Process D:\code-softwares\nacos-server-2.0.3\nacos\bin\startup.cmd
+}
+
+Set-Alias -Name nacos -Value run-nacos
+
+```
+
+
+
 ### hyper
 
 ```javascript

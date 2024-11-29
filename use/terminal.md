@@ -269,7 +269,8 @@ module.exports = {
     plugins: [
       'hyperborder',
       // 'hyper-mac-controls',
-      'git-falcon9',
+      // 'git-falcon9',
+      'gitrocket',
       'hyperterm-visor',
       'hyperterm-tabs',
     ],
